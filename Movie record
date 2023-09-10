@@ -1,0 +1,37 @@
+movie  movie-record  Movie-record  Movie-Record-System  movies-record_system  system
+-sh-4.2$ cd Movie-Record-System                                                       
+-sh-4.2$ s                                                                            
+Movies  Series
+-sh-4.2$ cd Movies                                                                    
+-sh-4.2$ ls                                                                           
+Moviex  Moviey
+-sh-4.2$ cd Moviex                                                                    
+-sh-4.2$ ls                                                                           
+Moviex1.1.txt  Moviex2.2.txt                                                          
+-sh-4.2$ cd Moviey                                                                    
+-sh: cd: Moviey: No such file or directory                                            
+-sh-4.2$ cd ..                                                                        
+-sh-4.2$ pwd                                                                          
+/home/Nasirizalite/Movie-Record-System/Movies                                         
+-sh-4.2$ ls                                                                           
+Moviex  Moviey
+-sh-4.2$ cd Moviey                                                                    
+-sh-4.2$ ls                                                                           
+Moviey1.1.txt  Moviey2.2.txt                                                          
+-sh-4.2$ cd ...                                                                       
+-sh: cd: ...: No such file or directory                                               
+-sh-4.2$ cd ..                                                                        
+-sh-4.2$ pwd                                                                          
+/home/Nasirizalite/Movie-Record-System/Movies                                         
+-sh-4.2$ cd .                                                                         
+-sh-4.2$ ls                                                                           
+Moviex  Moviey
+-sh-4.2$ cd ..                                                                        
+-sh-4.2$ pwd                                                                          
+/home/Nasirizalite/Movie-Record-System                                                
+-sh-4.2$ ls                                                                           
+Movies  Series
+-sh-4.2$ cd Series                                                                    
+-sh-4.2$ ls                                                                           
+Seriea  Seriea1.1.txt  Seriea2.2.txt  Serieb  Serieb1.1.txt  Serieb2.2.txt
+-sh-4.2$ ls          
